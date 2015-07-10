@@ -149,7 +149,7 @@ button.toast-close-button {
     pointer-events: none;
   }
   &.toast-center > div, &.toast-top-center > div, &.toast-bottom-center > div {
-    margin: auto;
+    margin: 0 10px;
     pointer-events: auto;
   }
   &.toast-center > button, &.toast-top-cente > button, &.toast-bottom-center > button {
@@ -164,7 +164,6 @@ button.toast-close-button {
     div {
       margin: 0 0 6px;
       padding: 15px 15px 15px 50px;
-      width: 300px;
       -moz-border-radius: 3px 3px 3px 3px;
       -webkit-border-radius: 3px 3px 3px 3px;
       border-radius: 3px 3px 3px 3px;
@@ -247,7 +246,6 @@ button.toast-close-button {
   #toast-container {
     > div {
       padding: 8px 8px 8px 50px;
-      width: 18em;
     }
     .toast-close-button {
       right: -0.2em;
