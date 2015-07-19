@@ -35,10 +35,10 @@ $toastWarning: #f89406 !default;
 $toastPositionFullWidthTop: 0 !default;
 $toastPositionFullWidthBottom: 0 !default;
 
-$toastPossitionTop: 12px !default;
+$toastPossitionTop: 0px !default;
 $toastPossitionLeft: 12px !default;
 $toastPossitionRight: 12px !default;
-$toastPossitionBottom: 12px !default;
+$toastPossitionBottom: 0px !default;
 
 $toastContainerColor: #ffffff !default;
 $toastContainerShadowColor: #999999 !default;
@@ -149,7 +149,7 @@ button.toast-close-button {
     pointer-events: none;
   }
   &.toast-center > div, &.toast-top-center > div, &.toast-bottom-center > div {
-    margin: 0 10px;
+    margin: 0px;
     pointer-events: auto;
   }
   &.toast-center > button, &.toast-top-cente > button, &.toast-bottom-center > button {
