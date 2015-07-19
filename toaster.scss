@@ -162,18 +162,14 @@ button.toast-close-button {
   }
   > {
     div {
-      margin: 0 0 6px;
       padding: 15px 15px 15px 50px;
       -moz-border-radius: 3px 3px 3px 3px;
-      -webkit-border-radius: 3px 3px 3px 3px;
-      border-radius: 3px 3px 3px 3px;
       background-position: 15px center;
       background-repeat: no-repeat;
       -moz-box-shadow: 0 0 12px $toastContainerShadowColor;
       -webkit-box-shadow: 0 0 12px $toastContainerShadowColor;
       box-shadow: 0 0 12px $toastContainerShadowColor;
       color: $toastContainerColor;
-      opacity: 0.8;
       -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
       filter: alpha(opacity = 80);
     }
@@ -232,7 +228,6 @@ button.toast-close-button {
 @media all and (max-width: 240px) {
   #toast-container {
     > div {
-      padding: 8px 8px 8px 50px;
       width: 11em;
     }
     .toast-close-button {
@@ -244,9 +239,6 @@ button.toast-close-button {
 
 @media all and (min-width: 241px) and (max-width: 480px) {
   #toast-container {
-    > div {
-      padding: 8px 8px 8px 50px;
-    }
     .toast-close-button {
       right: -0.2em;
       top: -0.2em;
